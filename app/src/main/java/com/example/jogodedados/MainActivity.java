@@ -23,18 +23,24 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Pegando os ID'' dos ImageViews
         primeiroDado = findViewById(R.id.dado_1);
         segundoDado = findViewById(R.id.dado_2);
     }
 
     public void jogarDado1(View view) {
+
+        // Atribuição dos ID's as imagens
         ImageView img1 = (ImageView)findViewById(R.id.dado_1);
         ImageView img2 = (ImageView)findViewById(R.id.dado_2);
+
+        // Instanciando duas heaps para a lógica dos dados
         Dado dado1 = new Dado();
         Dado dado2 = new Dado();
         dado1.JogarDado();
         dado2.JogarDado();
 
+        // Alterando as imagens e atribuindo-as de acordo com o número trazido na regra
         if (dado1.getNumero() == 1) img1.setImageResource(R.drawable.dice1);
         if (dado1.getNumero() == 2) img1.setImageResource(R.drawable.dice2);
         if (dado1.getNumero() == 3) img1.setImageResource(R.drawable.dice3);
@@ -49,6 +55,8 @@ public class MainActivity extends AppCompatActivity {
         if (dado2.getNumero() == 5) img2.setImageResource(R.drawable.dice5);
         if (dado2.getNumero() == 6) img2.setImageResource(R.drawable.dice6);
 
+
+        // Verificação de quem ganhou o jogo
         if (dado1.getNumero() > dado2.getNumero()) {
             Toast.makeText(this,"Jogador 1 venceu!",1). show();
         } else {

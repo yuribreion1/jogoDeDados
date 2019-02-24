@@ -27,4 +27,3 @@ public class Dado {
         this.setNumero(gerador.nextInt(6)+1);
     }
 }
-
