@@ -2,7 +2,7 @@
 
 ### Jogo dos dados
 
-- Usamos o [iconfinder](https://www.iconfinder.com/) para baixar as imagens dos dados
+Usamos o [iconfinder](https://www.iconfinder.com/) para baixar as imagens dos dados
 
 Criei uma classe(`Dado.java`) separada para as lógicas dos dados sendo jogados: 
 
@@ -34,7 +34,7 @@ public class Dado {
 }
 ```
 
-- Atribuimos a imagem do dado no arquivo `activity_main.xml`:
+Atribuimos a imagem do dado no arquivo `activity_main.xml`:
 
 ``` xml
 <ImageView
