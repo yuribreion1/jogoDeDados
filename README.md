@@ -2,6 +2,8 @@
 
 ### Jogo dos dados
 
+![jogo dos dados](https://gph.is/2IlvQqa)
+
 Usamos o [iconfinder](https://www.iconfinder.com/) para baixar as imagens dos dados
 
 Criei uma classe(`Dado.java`) separada para as lógicas dos dados sendo jogados: 
