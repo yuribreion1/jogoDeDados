@@ -2,7 +2,7 @@
 
 ### Jogo dos dados
 
-![jogo dos dados](https://gph.is/2IlvQqa)
+![jogo dos dados](https://gph.is/2JSGrpy)
 
 Usamos o [iconfinder](https://www.iconfinder.com/) para baixar as imagens dos dados
 
